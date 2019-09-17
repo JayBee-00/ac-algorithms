@@ -8,7 +8,24 @@
 // Check out Arithmetic Operators https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/Arithmetic_Operators
 
 function factorializeIt(num) {
-  //your code here
+  var factVar = 1;
+  for (var i = 1; i <= num; i++){
+  factVar = factVar * i;
+}
+  return factVar;
 }
 
-factorializeIt(5);
+var factAnswer = factorializeIt(5);
+
+
+// Input: a number
+// Output: a number, the factorial of that number which means the product of all the numbers between 1 and that number
+// Use a variable to store the output (the product)
+// Multiplication operator (*)
+// Is that a JS method that calculations a factorial?
+// Loop: we need to start at 1 and end at the number that is the parameter, and instead of adding each time in the loop, we can multiply
+
+
+num.length()
+var i=0; i>0; i*
+
